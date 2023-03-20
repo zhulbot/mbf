@@ -86,7 +86,7 @@ for t in range(10000):
 	f=random.choice(['5','4','6','6 Pro','5 Plus','7','8','8 Pro','9','9 Pro','10','10s','10 Pro','11','11 Pro'])
 	g=random.choice(['5','4','6','6A','5A','7','8','8A','9','9A','10','10A','7A','10 2022','4A'])
 	brayen1=f'Mozilla/5.0 (Linux; Android {a}; MI A3 Build/RKQ1.{b}.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
-	brayen2=f'Mozilla/5.0 (Linux; Android {a}; Redmi Note {f} Build/PPR1.{b}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36 HeyTapBrowser/40.8.8.9'
+	brayen2=f'Mozilla/5.0 (Linux; Android {a}; Redmi Note {f} Build/PPR1.{b}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 	brayen3=f'Mozilla/5.0 (Linux; Android {a}; SM-A405FN Build/RP1A.{b}.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 	brayen4=f'Mozilla/5.0 (Linux; Android {a}; Mi 9T Pro Build/SP1A.{b}.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 	brayen5=f'Mozilla/5.0 (Linux; Android {a}; Redmi {g} Build/SP1A.{b}.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
