@@ -80,15 +80,15 @@ for xd in range(10000):
 
 #------------[ UBAH UA DIH SINI OM ]---------------#
 for t in range(10000):
-	a=random.choice(['3','4','5','6','7','8','9','10','11','12'])
+	a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
 	b=random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1'])
 	c=random.randrange(111111,210000)
 	d=random.randrange(11,19)
 	e=random.randrange(73,100)
 	f=random.randrange(4200,4900)
 	g=random.randrange(40,150)
-	random1=random.choice(['SM-M236B','SM-A037G','SM-J701MT','SM-A115U','SM-G610M','SM-J530F','SM-A307FN'])
-	random2=random.choice(['MI 9T Pro','MI A3','SM-G998B','SM-M317F','SM-A336E','SM-G925F'])
+	random1=random.choice(['HD1913','SAMSUNG SM-S901B','SM-J730F','SAMSUNG SM-G973F'])
+	random2=random.choice(['MI 9T Pro','MI A3','SAMSUNG SM-G998B','Redmi 6','Redmi 5A','Redmi 10C','Redmi 9C'])
 	brayen1=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
 	brayen2=f'Mozilla/5.0 (Linux; Android {a}; {random2} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
 	uaku2 = random.choice([brayen1,brayen2])
