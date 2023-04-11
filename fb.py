@@ -279,7 +279,7 @@ def login_lagi334():
 							print(f"\n [+] Token : {access_token}")
 							tokenew = open(".token.txt","w").write(access_token)
 							cook= open(".cok.txt","w").write(your_cookies)
-							print("\n [+] Login Berhasil | python BrayennnFB.py");exit()
+							print("\n [+] Login Berhasil | python fb.py");exit()
 			except Exception as e:
 				print(" [+] Cookies Mokad Kontol")
 				os.system('rm -rf .token.txt && rm -rf .cok.txt')
@@ -302,9 +302,9 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	pengguna = requests.get('https://api.countapi.xyz/hit/Brayen/visits').json()["value"]	
 	dia.append(panel(f'[bold white][+[/][bold white]][/] [bold white]Username : [bold green]{my_name}[/]\n[bold white][+[/][bold white]][/] [bold white]User Idz : [bold green]{my_id}[/]\n[bold white][+[/][bold white]][/] [bold white]User Ip  : [bold green]{ip}[/][/]\n[bold white][+[/][bold white]][/] [bold white]User Sc  : [bold green]{pengguna}[/][/] ',width=45,padding=(0,3),style=f"bold white"))
-	dia.append(panel(f'[bold white][+[/][bold white]][/] [bold white]Author : [bold green]Alvino[/]\n[bold white][+[/][bold white]][/] [bold white]Recode : [bold green]BrayennnXD[/]\n[bold white][+[/][bold white]][/] [bold white]Versi  : [bold green]3.0[/][/]\n[bold white][+[/][bold white]][/] [bold white]Status : [bold green]Private[/][/] ',width=44,padding=(0,3),style=f"bold white"))
+	dia.append(panel(f'[bold white][+[/][bold white]][/] [bold white]Author : [bold green]Alvino[/]\n[bold white][+[/][bold white]][/] [bold white]Recode : [bold green]ZhuL[/]\n[bold white][+[/][bold white]][/] [bold white]Versi  : [bold green]3.0[/][/]\n[bold white][+[/][bold white]][/] [bold white]Status : [bold green]Private[/][/] ',width=44,padding=(0,3),style=f"bold white"))
 	console.print(Columns(dia))
-	cetak(panel(f"[bold white]Alvino_Xy , DerrXr , Asepit-Gans , Rozhak XD , Dapunta , Nazri XD And Others",width=90,title=f"[bold green]Thanks To",padding=(0,5),style=f"bold white"))
+	cetak(panel(f"[bold white]Alvino_Xy , BrayennnXD , DerrXr , Asepit-Gans , Rozhak XD , Dapunta , Nazri XD",width=90,title=f"[bold green]Thanks To",padding=(0,5),style=f"bold white"))
 	cetak(panel(f"[bold white][[bold cyan]01[bold white]] Crack Publick [[bold green] ON [bold white]]                  [bold white][[bold cyan]05[bold white]] Crack Username [[bold green] ON [bold white]]\n[bold white][[bold cyan]02[bold white]] Crack Massal [[bold green] ON [bold white]]                   [bold white][[bold cyan]06[bold white]] Crack Email [[bold green] ON [bold white]]                   [bold white][[bold cyan]03[bold white]] Crack Followers [[bold green] ON [bold white]]                [bold white][[bold cyan]07[bold white]] Cek Result [[bold green] ON [bold white]]\n[bold white][[bold cyan]04[bold white]] Crack File [[bold green] ON [bold white]]                     [bold white][[bold cyan]00[bold white]] [bold red]Ganti Cookies [bold white][[bold green] ON [bold white]]",width=90,title=f"[bold green]List Menu",padding=(0,8),style=f"bold white"))
 	cetak(panel(f'                [bold white]Ketik [bold green]"Bot"[bold white] Untuk Ke Menu Tambahan Di Dalam Script Ini',width=90,title=f"[bold green]Informasi Crack",style=f"bold white"))
 	_____brayennn___xd____ = input(f' [+] Pilih Menu Crack : ')
