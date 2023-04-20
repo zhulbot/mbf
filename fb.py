@@ -68,7 +68,7 @@ for xd in range(10000):
 
 for t in range(10000):
 	rr = random.randint
-	samsung=random.choice(['SM-J415N','SM-J610G','CPH2109','SM-M236B','SM-J610F','SM-J410G','SM-A536E'])
+	samsung=random.choice(['SM-J415N','SM-J610G','CPH2109','SM-M236B','SM-J610F','SM-J410G','SM-A536E','MI A3','MI 9T PRO','VIVO Y22'])
 	build=random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1'])
 	browser=random.choice(['HeyTapBrowser/10.8.12.2','HeyTapBrowser/45.9.3.1.1','HeyTapBrowser/40.8.12.2','HeyTapBrowser/10.7.10.0.2','HeyTapBrowser/10.8.9.1','HeyTapBrowser/26.7.36.1','HeyTapBrowser/12.7.36.1','HeyTapBrowser/8.7.36.1','HeyTapBrowser/30.7.36.1','HeyTapBrowser/18.7.36.1','HeyTapBrowser/23.7.36.1'])
 	brayen1=f'Mozilla/5.0 (Linux; Android {str(rr(211111,299999))}; {samsung} Build/{build}.{str(rr(111111,210000))}.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36 '
