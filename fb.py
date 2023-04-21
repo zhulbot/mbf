@@ -149,7 +149,7 @@ def banner():
 #--------------------[ BAGIAN-MASUK ]--------------#
 def thr():
 	cetak(panel(f" [+] Hallo Cuy Gw ZhuL Dan Gw Mengucapkan Selamat Idul Fitri 1444 H Untukmu \n [+] Dan Semua Pengguna Termux Lainnya . Semoga Kegembiraan Hari Raya Ini Berlipat \n [+] Beribu-Ribu Kali , Mohon Maaf Lahir Batin Ya Cuy\n [+] Jangan Lupa Juga Cuy [bold green]Thr[bold white] Untuk Gw Yakan Awokawok \n [+] Dana : 089622155832 \n [+] Pulsa : 089622155832 \n [+] Thanks To All",width=90,padding=(0,2),style=f"bold white"))
-	time.sleep(10)
+	time.sleep(1)
 	login()
 	
 def login123():
